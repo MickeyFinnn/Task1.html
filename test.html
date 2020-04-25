@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test</title>
 </head>
+
 <body>
-<h1>TEST</h1>
-<h2>"Witch dog are you compatible with?"</h2>
-    
+	<h1>TEST</h1>
+	<h2>"Witch dog are you compatible with?"</h2>
+	<img src="img/compatible.png" alt="Text about wgich dog do you get and a sitting dog">
+    <form action="https://formspree.io/mvobejyd" method="POST">
+	<h2>Choose your gender:</h2>
+	<label>
+     <input type="radio" name="gender" value="male">Male
+    </label>
+	<label>
+    <input type="radio" name="gender" value="female">Female
+    </label>
+	<label>
+    <input type="radio" name="gender" value="other">Other
+    </label>
+	<h2>How old are you?</h2>
+	<label>
+    <input type="radio" name="age" value="0-15">0-15
+    </label>
+	<label>
+    <input type="radio" name="age" value="16-35">16-35
+    </label>
+	<label>
+                <input type="radio" name="age" value="36-∞">36-∞
+                </label>
+	<h2>Where do you live?</h2>
+	<label>
+    <input type="radio" name="inhabitation" value="flat">Flat
+    		</label>
+	<label>
+		<input type="radio" name="inhabitation" value="privat house">Privat house
+            </label>
+	<h2>Witch size of the dog do you prefer</h2>
+	<label>
+            <input type="radio" name="size" value="small">Small
+            </label>
+	<label>
+        <input type="radio" name="size" id="medium">Medium
+            </label>
+	<label>
+            <input type="radio" name="size" id="big">Big
+            </label>
+	<h2>Almost there!</h2>
+	<label>
+            <input type="checkbox" required name="agreement" value="do you agree">Do you agree with your choose?
+            </label>
+		<br><input type="text" placeholder="your name"><br>
+		<br><input type="text" placeholder="EMAIL"><br>
+		<br><input type="text" placeholder="your preferences"><br>
+		<br><input type="submit" value="Send"><br>
+    </form>
 </body>
+
 </html>
