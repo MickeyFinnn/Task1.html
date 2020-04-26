@@ -10,72 +10,82 @@
 
 <body>
 
-<header>
-	<h1>TEST</h1>
-	<h2>"Witch dog are you compatible with?"</h2>
-</header>
+	<header>
+		<h1>TEST</h1>
+		<h2>"Witch dog are you compatible with?"</h2>
+	</header>
+	<main>
+		<img src="img/compatible.png" alt="Text about wgich dog do you get and a sitting dog">
+		<nav>
+			<a href="index.html">Home page</a>
+		</nav>
+		<h2>For better results we recommend you listening to relaxing song</h2>
+		<audio src="audio/relax.mp3" controls loop></audio>
+		<form action="https://formspree.io/mvobejyd" method="POST">
 
-	<nav>
-		<a href="index.html">Home page</a>
-	</nav>
-	<img src="img/compatible.png" alt="Text about wgich dog do you get and a sitting dog">
-	<form action="https://formspree.io/mvobejyd" method="POST">
-	
-        <h2>Choose your gender:</h2>
+			<h2>Choose your gender:</h2>
 
-		<label>
+			<label>
 <input type="radio" name="gender" value="male">Male
     </label>
-		<label>
+			<label>
     <input type="radio" name="gender" value="female">Female
     </label>
-		<label>
+			<label>
     <input type="radio" name="gender" value="other">Other
 	</label>
 
-		<h2>How old are you?</h2>
-		
-        <label>
+			<h2>How old are you?</h2>
+
+			<label>
     <input type="radio" name="age" value="0-15">0-15
     </label>
-		<label>
+			<label>
     <input type="radio" name="age" value="16-35">16-35
     </label>
-		<label>
+			<label>
                 <input type="radio" name="age" value="36-∞">36-∞
                 </label>
-		<h2>Where do you live?</h2>
-		<label>
+			<h2>Also let us know your full date of birth:</h2>
+			<input type="date" id="date" name="date"/>
+			<h2>Where do you live?</h2>
+			<label>
     <input type="radio" name="inhabitation" value="flat">Flat
     		</label>
-		<label>
+			<label>
 		<input type="radio" name="inhabitation" value="privat house">Privat house
             </label>
-		<h2>Witch size of the dog do you prefer?</h2>
-		<label>
+			<h2>Witch size of the dog do you prefer?</h2>
+			<label>
             <input type="radio" name="size" value="small">Small
             </label>
-		<label>
+			<label>
             <input type="radio" name="size" id="medium">Medium
             </label>
-		<label>
+			<label>
             <input type="radio" name="size" id="big">Big
             </label>
-		<h2>Almost there!</h2>
-		<label>
+			<h2>Almost there!<br><br>Take a photo of yourself and sed it to us!</h2>
+				<p><input type="file" id="photo" name="photo of yourself"></p>
+					<label>
             <input type="checkbox" required name="agreement" value="do you agree">Do you agree with your choose?
             </label>
 
-		<br><input type="text" required placeholder="your name" name="your name"><br>
-		<br><input type="text" required placeholder="EMAIL" name="replyto"><br>
-		<br><textarea  required placeholder="your preferences" name="preferences"></textarea><br>
-		<br><input type="submit" value="Send"><br>
+					<br><input type="text" required placeholder="your name" name="your name"><br>
+					<br><input type="text" required placeholder="EMAIL" name="replyto"><br>
+					<br><textarea  required placeholder="your preferences" name="preferences"></textarea><br>
+					<br><input type="submit" value="Send"><br>
 
     </form>
+					<hr>
+	</main>
+	<footer>
+		<h3>Our contacts: Ukraine, Lviv, Schyretska 33 street, index:79071. Mobile:+380934673543</h3>
+		<a href="https://www.instagram.com/bilousov_mixal">
+			<img src="img/instagram.jpg" alt="instagram logo">
+            </a>
 
-		<footer>
-			<h3>Our contacts: Ukraine, Lviv, Schyretska 33 street, index:79071. Mobile:+380934673543</h3>
-		</footer>
+	</footer>
 
 
 </body>
